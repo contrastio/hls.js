@@ -908,6 +908,7 @@ class TSDemuxer {
               tmp.set(lastUnit.data, 0);
               tmp.set(array.subarray(0, overflow), lastUnit.data.byteLength);
               lastUnit.data = tmp;
+              lastUnit.state = 0;
             }
           }
         }
