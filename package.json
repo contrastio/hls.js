@@ -1,15 +1,16 @@
 {
-  "name": "hls.js",
+  "name": "@contrastio/hls.js",
   "license": "Apache-2.0",
+  "version": "0.14.18",
   "description": "JavaScript HLS client using MediaSourceExtension",
-  "homepage": "https://github.com/video-dev/hls.js",
-  "authors": "Guillaume du Pontavice <g.du.pontavice@gmail.com>",
+  "homepage": "https://github.com/contrastio/hls.js",
+  "authors": "Contrast dev team",
   "repository": {
     "type": "git",
-    "url": "https://github.com/video-dev/hls.js"
+    "url": "https://github.com/contrastio/hls.js"
   },
   "bugs": {
-    "url": "https://github.com/video-dev/hls.js/issues"
+    "url": "https://github.com/contrastio/hls.js/issues"
   },
   "main": "./dist/hls.js",
   "types": "./dist/hls.js.d.ts",
